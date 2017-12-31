@@ -14,7 +14,7 @@ class CreateChatRoomViewController: UIViewController {
     let mainView: UIView = {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 100))
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .black
+        view.backgroundColor = UIColor(red: 0/255, green: 31/255, blue: 54/255, alpha: 1.0)
         view.layer.cornerRadius = 30
         view.clipsToBounds = true
         view.layer.borderWidth = 5
